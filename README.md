@@ -37,3 +37,6 @@ $ python hash_cracker.py -H 5d41402abc4b2a76b9719d911017c592 -w wordlists/rockyo
 ### CPU + Multithreading
 ```bash
 python hash_cracker.py -H <hash> -w rockyou.txt -t 16
+
+GPU (hashcat)
+python hash_cracker_gpu.py <hash> rockyou.txt sha256
