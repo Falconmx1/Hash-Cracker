@@ -1,2 +1,3 @@
-tqdm  # opcional, para barra de progreso
-colorama  # opcional, para colores en consola
+tqdm>=4.65.0
+colorama>=0.4.6
+# Para GPU necesitas instalar hashcat aparte: https://hashcat.net/hashcat/
