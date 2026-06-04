@@ -1,0 +1,3 @@
+5d41402abc4b2a76b9719d911017c592  # "hello" en MD5
+aaf4c61ddcc5e8a2dabede0f3b482cd9aea9434d  # "world" en SHA1
+b94d27b9934d3e08a52e52d7da7dabfac484efe37a5380ee9088f7ace2efcde9  # "password" en SHA256
