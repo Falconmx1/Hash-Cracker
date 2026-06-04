@@ -24,3 +24,16 @@ python hash_cracker.py -H 5d41402abc4b2a76b9719d911017c592 -w rockyou.txt
 $ python hash_cracker.py -H 5d41402abc4b2a76b9719d911017c592 -w wordlists/rockyou.txt
 [+] Hash: MD5
 [+] Crackeado: hello
+
+## 🚀 Características avanzadas
+
+- ✅ **Multithreading** (8+ hilos)
+- ✅ **GPU Acceleration** (via hashcat)
+- ✅ **8 algoritmos**: MD5, SHA1, SHA224, SHA256, SHA384, SHA512, Blake2b, Blake2s
+- ✅ **Detección automática** de algoritmo
+
+## 🖥️ Uso avanzado
+
+### CPU + Multithreading
+```bash
+python hash_cracker.py -H <hash> -w rockyou.txt -t 16
