@@ -1,0 +1,2 @@
+tqdm  # opcional, para barra de progreso
+colorama  # opcional, para colores en consola
